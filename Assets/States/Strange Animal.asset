@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c6cb40a1b1e8b4791ae85bb37f02ba, type: 3}
+  m_Name: Strange Animal
+  m_EditorClassIdentifier: 
+  stateID: Strange Animal
+  text: You are out alone in the woods and come upon a strange animal you have never
+    seen before, caught in the jaws of a hunter's trap. The animal is twitching and
+    looks in pain. What do you do?
+  options:
+  - 1. Draw your knife and with one swift cut, put it out of it's misery.
+  - 2. Take this chance to study the animal, learning more about a creature you have
+    never encountered. There is always more to learn, and you don't know if you'll
+    get another chance to examine this beast.
+  - 3. Grab some herbs from your sack to try and soothe the animal to sleep, not interfering
+    with the hunter or the hunted.
+  nextStates:
+  - {fileID: 11400000, guid: 6b3e94ba5db8cf047a8c60e196658e96, type: 2}
+  option1: 010000000000000000000000000000000000000001000000
+  option2: 000000000000000000000000020000000000000000000000
+  option3: 000000000000000000000000000000000200000000000000
+  option4: 
+  option5: 
+  notes: 2pts

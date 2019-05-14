@@ -1,0 +1,46 @@
+
+Udemy Unity 2D:
+Text101 - Dwarven Adventures
+---
+Project reformatted to
+Text101 - Character Creator
+
+
+-------------
+----To Do----
+-------------
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~/////////CONTENT/////////~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~-Neat Possible Additions-~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~-------Polish--------~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+First slide longer body text delay (1sec), rest shorter (test delay, try 0.5sec)
+
+code: clean up states
+    > have the options be a dictionary of strings(text on screen) and int-arrays(stats)
+-
+
+states: change the option text from "1. Silently pray." to "Silently pray." - add the numbering to the script instead of having to type manually
+
+
+____________________________
+|--------------------------|
+|(((Notes for dev/design)))|
+|--------------------------|
+
+https://en.uesp.net/wiki/Morrowind:Class_Quiz
+
+
+8 STR, 8 DEX, 8 CON, 8 INT, 8 WIS, 8 CHA   ~26 Pts for a balanced amount

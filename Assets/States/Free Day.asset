@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c6cb40a1b1e8b4791ae85bb37f02ba, type: 3}
+  m_Name: Free Day
+  m_EditorClassIdentifier: 
+  stateID: Free Day
+  text: 'The sun is shining and the day is young. What do you do?
+
+'
+  options:
+  - 1. Set out on a quiet fishing trip.
+  - 2. Try to peddle some shirts you had hand-sewn the previous week.
+  - 3. Return to your physical training regimine, working closer to being able to
+    join the standing militia.
+  - 4. Pour over your beloved library and the tomes it contains.
+  - 5. Set out into the forest for the day and night, spending some quality time in
+    the natural world.
+  nextStates:
+  - {fileID: 11400000, guid: 8bca4057aef629f4186a9370871309aa, type: 2}
+  option1: 000000000200000000000000010000000100000001000000
+  option2: 000000000200000000000000000000000000000002000000
+  option3: 010000000100000002000000000000000000000000000000
+  option4: 0000000000000000ffffffff030000000100000000000000
+  option5: 000000000100000000000000ffffffff0300000001000000
+  notes: '4pts
+
+    extra stat - 1:2dex,int,wis,cha
+
+    deficit stat - 4: -1con,3int,wis'

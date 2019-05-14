@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c6cb40a1b1e8b4791ae85bb37f02ba, type: 3}
+  m_Name: Hunter or Hunted
+  m_EditorClassIdentifier: 
+  stateID: Hunter or Hunted
+  text: "While out hunting, you have successfully tracked a young deer. As you silently
+    approach, arrow drawn, you notice a figure in the woodline, opposite the deer.
+    There is another person, arrow also drawn in your direction. What do you do?\r"
+  options:
+  - 1. Fire at the stranger. The woods are dangerous, and you will not be ambushed.
+  - 2. Fire at your prey, securing it. If they wanted the deer, they needed to be
+    faster.
+  - 3. Wait out the tense moment. Your shot at this animal isn't worth entering whatever
+    this situation may evolve into.
+  nextStates:
+  - {fileID: 11400000, guid: dd6e52b91484816478ced448fe1942ba, type: 2}
+  option1: 010000000100000001000000000000000000000000000000
+  option2: 000000000200000000000000000000000000000001000000
+  option3: 000000000000000000000000020000000100000000000000
+  option4: 
+  option5: 
+  notes: 3pts

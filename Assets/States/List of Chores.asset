@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c6cb40a1b1e8b4791ae85bb37f02ba, type: 3}
+  m_Name: List of Chores
+  m_EditorClassIdentifier: 
+  stateID: List of Chores
+  text: Your father has presented you with a list of chores to pick from, as he sets
+    off to his forge to work for the day. What do you do?
+  options:
+  - 1. Join your father at the forge, casting iron for a new plow.
+  - 2. Gather your woodworking tools and try to work on your shed, which gave in to
+    the recent rainfall.
+  - 3. Return to the hides you tanned and begin leatherworking your own set of gloves.
+  - 4. Dig up the schematics for the new irrigation system your father found, and
+    try to figure out how to build the strange machine.
+  nextStates:
+  - {fileID: 11400000, guid: 2f214cfeb6808fa428399eb10be636c0, type: 2}
+  option1: 010000000000000002000000000000000000000001000000
+  option2: 010000000100000001000000010000000000000000000000
+  option3: 000000000200000001000000000000000000000001000000
+  option4: 000000000100000000000000020000000000000000000000
+  option5: 
+  notes: '4pts
+
+    deficit stat - 4: dex,2int'

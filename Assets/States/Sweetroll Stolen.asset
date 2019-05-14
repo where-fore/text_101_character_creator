@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c6cb40a1b1e8b4791ae85bb37f02ba, type: 3}
+  m_Name: Sweetroll Stolen
+  m_EditorClassIdentifier: 
+  stateID: Sweetroll Stolen
+  text: You are at the baker's stand, preparing to buy a fresh loaf for your family.
+    The little boy in front of you seems overjoyed at their recent sweetroll purchase.
+    You watch them skip off to enjoy their treat, as a group of 3 similarly-aged boys
+    follow him. You see the group accosting the young boy for his sweetroll. What
+    do you do?
+  options:
+  - 1. Intervene. Tell the bullies to back off - someone has to keep the peace, and
+    it might as well be you.
+  - 2. Ignore them, let the world will take it's course. The boy won't always have
+    someone watching out for him, and he should learn that with now over just a sweetroll.
+  - 3. While the shopkeep isn't looking, try to grab an extra sweetroll for the poor
+    boy. He paid for one, and he deserves one.
+  nextStates:
+  - {fileID: 11400000, guid: b53e28c77856b0345ab7979f82a24009, type: 2}
+  option1: 010000000000000001000000000000000000000001000000
+  option2: 000000000000000001000000000000000200000000000000
+  option3: 000000000200000000000000010000000000000000000000
+  option4: 000000000000000000000000000000000000000000000000
+  option5: 000000000000000000000000000000000000000000000000
+  notes: 3pts
