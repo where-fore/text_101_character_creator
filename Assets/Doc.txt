@@ -11,6 +11,8 @@ Text101 - Character Creator
 -------------
 
 Campfire lighting
+    > sound
+    > proper spark sprite
 
 Buttons
     -> Graphics
@@ -19,6 +21,8 @@ Buttons
 Question transition sound
 
 Music
+
+fix option text jumping as new lines are revealed
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~/////////CONTENT/////////~~
