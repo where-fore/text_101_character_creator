@@ -10,7 +10,15 @@ Text101 - Character Creator
 ----To Do----
 -------------
 
+Campfire lighting
 
+Buttons
+    -> Graphics
+    -> Sounds
+    
+Question transition sound
+
+Music
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~/////////CONTENT/////////~~
