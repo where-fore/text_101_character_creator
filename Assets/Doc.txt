@@ -56,3 +56,12 @@ https://en.uesp.net/wiki/Morrowind:Class_Quiz
 
 
 8 STR, 8 DEX, 8 CON, 8 INT, 8 WIS, 8 CHA   ~26 Pts for a balanced amount
+
+Z-Depth Layers
+---------------
+-10 : Camera & Light
+
+
+
+10 : Basic White Background
+9 : Lined Background
