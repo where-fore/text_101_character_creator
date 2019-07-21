@@ -46,7 +46,9 @@ code: clean up states
 
 states: change the option text from "1. Silently pray." to "Silently pray." - add the numbering to the script instead of having to type manually
 
-flicker
+flicker bell curve instead of random distribution
+
+bottom right fold, remove transparency
 
 ____________________________
 |--------------------------|

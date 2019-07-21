@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LightFlicker : MonoBehaviour
 {
-    private float startingIntensity = 0f;
+    [SerializeField] private float startingIntensity = 0f;
     [SerializeField] private float intensityDeltaRange = 0.05f;
     [SerializeField] private float flickerDelayBase = 0.075f;
     [SerializeField] private float flickerDelayRange = 0.005f;
