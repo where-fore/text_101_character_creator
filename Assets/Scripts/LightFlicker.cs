@@ -8,7 +8,7 @@ public class LightFlicker : MonoBehaviour
     [SerializeField] private float intensityDeltaRange = 0.05f;
     [SerializeField] private float flickerDelayBase = 0.075f;
     [SerializeField] private float flickerDelayRange = 0.005f;
-    [SerializeField] private bool flickering = true;
+    private bool flickering = true;
     private Light myLightComponent = null;
 
     void Start()

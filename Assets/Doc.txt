@@ -24,6 +24,8 @@ Music
 
 fix option text jumping as new lines are revealed
 
+add a readme with license
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~/////////CONTENT/////////~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -49,6 +51,10 @@ states: change the option text from "1. Silently pray." to "Silently pray." - ad
 flicker bell curve instead of random distribution
 
 bottom right fold, remove transparency
+
+wax drops on paper
+
+candle vs fire
 
 ____________________________
 |--------------------------|
