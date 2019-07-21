@@ -23,8 +23,8 @@ public class LightFlicker : MonoBehaviour
     {
         while (flickering)
         {
-            float delay = flickerDelayBase + Random.Range(-flickerDelayRange, flickerDelayRange);
-            delay = Mathf.Clamp(delay, 0f, 1f); // to ensure you don't accidently type in 5sec+ and have to wait for it to reset
+            float delay = flickerDelayBase + Random.Range(-flickerDelayRange, flickerDelayRange); // in the future, make this a bell curve instead of even distribution
+            delay = Mathf.Clamp(delay, 0f, 1f); // to ensure you don't accidently type in 5sec+ in the editor and have to wait for it to reset
             yield return new WaitForSeconds(delay);
             ChangeIntensity();
         }
