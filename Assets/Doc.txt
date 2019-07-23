@@ -30,6 +30,7 @@ add a readme with license
 ~~/////////CONTENT/////////~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+ending: "Being your journey..." -> fade to black. white text fades in - "journey coming soon"
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -54,7 +55,12 @@ bottom right fold, remove transparency
 
 wax drops on paper
 
-candle vs fire
+have fire colour change based on choices? blue for mage, yellow for thief, red for warrior?
+    > some sort of change based on choice - sound effect, music something
+
+have fire colour change very slowly
+
+"no flicker" accessibility option - as well as more lights
 
 ____________________________
 |--------------------------|
