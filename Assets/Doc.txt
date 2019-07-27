@@ -30,7 +30,7 @@ add a readme with license
 ~~/////////CONTENT/////////~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-ending: "Being your journey..." -> fade to black. white text fades in - "journey coming soon"
+ending: "Begin your journey..." -> fade to black. white text fades in - "journey coming soon"
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -60,6 +60,8 @@ have fire colour change based on choices? blue for mage, yellow for thief, red f
 
 have fire colour change very slowly
 
+have buttons stretch with longer and shorter texts
+
 "no flicker" accessibility option - as well as more lights
 
 ____________________________
@@ -71,12 +73,3 @@ https://en.uesp.net/wiki/Morrowind:Class_Quiz
 
 
 8 STR, 8 DEX, 8 CON, 8 INT, 8 WIS, 8 CHA   ~26 Pts for a balanced amount
-
-Z-Depth Layers
----------------
--10 : Camera & Light
-
-
-
-10 : Basic White Background
-9 : Lined Background

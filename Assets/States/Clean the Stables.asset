@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Clean the Stables
   m_EditorClassIdentifier: 
   stateID: Clean the Stables
-  text: Your father presents with a chore with you loathe, cleaning the stables. As
-    you begrudgingly prepare your supplies, you run into a friend of yours. They hear
-    your frustration and offer to clean the stables for you, in return for a favour
-    later down the line. What do you do?
+  text: Your father presents with a chore which you loathe, cleaning the stables.
+    As you begrudgingly prepare your supplies, you run into a friend of yours. They
+    hear your frustration and offer to clean the stables for you, in return for a
+    favour later down the line. What do you do?
   options:
   - 1. Thank them, but move and clean the stables on your own. You said you were going
     to clean the stables yourself, and not enjoying the task is not reason enough
