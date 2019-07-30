@@ -5,9 +5,6 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Question Slide")]
 public class QuestionSlide : ScriptableObject
 {
-    [Tooltip("The slide that will come after this one")] [SerializeField]
-    private QuestionSlide nextSlide = null;
-
     [Tooltip("The main text that will appear in the centre of the screen")]
     [TextArea(8,12)] [SerializeField]
     private string bodyText = "";
@@ -50,7 +47,6 @@ public class QuestionSlide : ScriptableObject
     public int GetOption1Consequence() {return consequence1;}
     public int GetOption2Consequence() {return consequence2;}
     public int GetOption3Consequence() {return consequence3;}
-    public QuestionSlide GetNextSlide() {return nextSlide;}
     private void GetRidOfUnityWarning() {string variableToFix = notes;} //removes the Unity warning that this variable is declared, but never used
 
 }

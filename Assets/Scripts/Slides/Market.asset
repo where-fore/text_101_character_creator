@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4ee8c0a5f15c04d993b120958d1f23, type: 3}
+  m_Name: Market
+  m_EditorClassIdentifier: 
+  bodyText: You have entered into the Harvest market, what do you do?
+  option1Text: Make your way to your favourite smith, hoping your new battleaxe is
+    prepared.
+  consequence1: 1
+  option2Text: Set up your shop full of trinkets and "second-hand" goods.
+  consequence2: 3
+  option3Text: Find your way to the bookstand and look over the new additions.
+  consequence3: 0
+  notes: 

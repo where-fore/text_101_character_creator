@@ -11,6 +11,7 @@ Round 2: Polish Boogaloo(not from Poland)
 -------------
 ----To Do----
 -------------
+decide: serialized field references, or FindObjectOfType<ScriptName>();
 
 states: edit writing, transition to 3 option warrior/thief/mage
 create classes, brief description to be expanded later
@@ -73,3 +74,15 @@ ____________________________
 |--------------------------|
 
 https://en.uesp.net/wiki/Morrowind:Class_Quiz
+
+Solving problems
+=================
+Warrior: Head on, enact the most direct solution.
+Mage: Find a creative solution.
+Thief: Reframe the situation, create your own favourable scenario
+
+Answers Aesthetic
+==================
+Warrior: Short.
+Mage: Creative, maybe a little flowery
+Thief: Sly, practical.
