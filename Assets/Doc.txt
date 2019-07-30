@@ -4,27 +4,23 @@ Text101 - Dwarven Adventures
 ---
 Project reformatted to
 Text101 - Character Creator
+---
+Round 2: Polish Boogaloo(not from Poland)
 
 
 -------------
 ----To Do----
 -------------
 
-Campfire lighting
-    > sound
-    > proper spark sprite
+states: edit writing, transition to 3 option warrior/thief/mage
+create classes, brief description to be expanded later
 
-Buttons
-    -> Graphics
-    -> Sounds
-    
-Question transition sound
-
-Music
-
-fix option text jumping as new lines are revealed
-
-add a readme with license
+add core game functionality
+    > go through questions
+    > final class screen
+    > escape closes
+    > playable build
+-
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~/////////CONTENT/////////~~
@@ -32,11 +28,11 @@ add a readme with license
 
 ending: "Begin your journey..." -> fade to black. white text fades in - "journey coming soon"
 
+proper readme with license
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~-Neat Possible Additions-~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+escape menu, settings menu
 
+buttons? on parchment or overlay
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~-------Polish--------~~~~
@@ -64,12 +60,16 @@ have buttons stretch with longer and shorter texts
 
 "no flicker" accessibility option - as well as more lights
 
+sparks for fire, or some new ambient Graphics
+
+animated buttons
+
+sfx for buttons
+
+
 ____________________________
 |--------------------------|
 |(((Notes for dev/design)))|
 |--------------------------|
 
 https://en.uesp.net/wiki/Morrowind:Class_Quiz
-
-
-8 STR, 8 DEX, 8 CON, 8 INT, 8 WIS, 8 CHA   ~26 Pts for a balanced amount
