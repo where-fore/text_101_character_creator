@@ -21,5 +21,5 @@ MonoBehaviour:
   consequence2: 1
   option3Text: See if you can enlist some friends to aid, in return for aid in their
     chores. Two work better than one.
-  consequence3: 0
+  consequence3: 2
   notes: 

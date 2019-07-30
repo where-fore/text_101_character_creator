@@ -23,13 +23,13 @@ public class TextManager : MonoBehaviour
         string newBodyText = currentQuestion.GetBodyText();
         allFields.Add(bodyText, newBodyText);
 
-        string newOption1Text = currentQuestion.GetOption1Text();
+        string newOption1Text = currentQuestion.GetOptionText(1);
         allFields.Add(option1Text, newOption1Text);
         
-        string newOption2Text = currentQuestion.GetOption2Text();
+        string newOption2Text = currentQuestion.GetOptionText(2);
         allFields.Add(option2Text, newOption2Text);
         
-        string newOption3Text = currentQuestion.GetOption3Text();
+        string newOption3Text = currentQuestion.GetOptionText(3);
         allFields.Add(option3Text, newOption3Text);
         
         foreach (KeyValuePair<TextMeshProUGUI, string> update in allFields)

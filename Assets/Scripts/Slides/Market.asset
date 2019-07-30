@@ -19,5 +19,5 @@ MonoBehaviour:
   option2Text: Set up your shop full of trinkets and "second-hand" goods.
   consequence2: 3
   option3Text: Find your way to the bookstand and look over the new additions.
-  consequence3: 0
+  consequence3: 2
   notes: 

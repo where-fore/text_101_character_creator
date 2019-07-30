@@ -36,18 +36,18 @@ public class GameLoop : MonoBehaviour
 
     public void ChooseFirstOption()
     {
-        StartCoroutine(ActivateIndicator(OptionConsequence(1)));
+        StartCoroutine(ActivateIndicator(GetIndicatorForConsequence(1)));
         NextQuestion();
     }
 
     public void ChooseSecondOption()
     {
-        StartCoroutine(ActivateIndicator(OptionConsequence(2)));
+        StartCoroutine(ActivateIndicator(GetIndicatorForConsequence(2)));
         NextQuestion();
     }
     public void ChooseThirdOption()
     {
-        StartCoroutine(ActivateIndicator(OptionConsequence(3)));
+        StartCoroutine(ActivateIndicator(GetIndicatorForConsequence(3)));
         NextQuestion();
     }
 
@@ -70,54 +70,28 @@ public class GameLoop : MonoBehaviour
         indicator.SetActive(false);
     }
 
-    private GameObject OptionConsequence(int optionNumber)
+    private GameObject GetIndicatorForConsequence(int optionNumber)
     {
-        if (optionNumber == 1)
+        if (optionNumber > 3 || optionNumber < 1)
         {
-            if (currentQuestion.GetOption1Consequence() == Globals.warrior)
-            {
-                return warriorIndicator;
-            }
-            else if (currentQuestion.GetOption1Consequence() == Globals.mage)
-            {
-                return mageIndicator;
-            }
-            else if (currentQuestion.GetOption1Consequence() == Globals.thief)
-            {
-                return thiefIndicator;
-            }
+            throw new UnityException("Option Text Request out of range: *" + optionNumber + "* is not 1, 2 or 3.");
         }
-        else if (optionNumber == 2)
+
+        int consequence = currentQuestion.GetConsequence(optionNumber);
+
+        if (consequence == Globals.warrior)
         {
-            if (currentQuestion.GetOption2Consequence() == Globals.warrior)
-            {
-                return warriorIndicator;
-            }
-            else if (currentQuestion.GetOption2Consequence() == Globals.mage)
-            {
-                return mageIndicator;
-            }
-            else if (currentQuestion.GetOption2Consequence() == Globals.thief)
-            {
-                return thiefIndicator;
-            }
+            return warriorIndicator;
         }
-        else if (optionNumber == 3)
+        if (consequence == Globals.mage)
         {
-            if (currentQuestion.GetOption3Consequence() == Globals.warrior)
-            {
-                return warriorIndicator;
-            }
-            else if (currentQuestion.GetOption3Consequence() == Globals.mage)
-            {
-                return mageIndicator;
-            }
-            else if (currentQuestion.GetOption3Consequence() == Globals.thief)
-            {
-                return thiefIndicator;
-            }
+            return mageIndicator;
         }
-        throw new UnityException("CheckConsequence Failure");
+        if (consequence == Globals.thief)
+        {
+            return thiefIndicator;
+        }
+        throw new UnityException("End of loop that shouldn't be able to end.");
     }
 
 }

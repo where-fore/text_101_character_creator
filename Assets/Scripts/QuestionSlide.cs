@@ -41,12 +41,48 @@ public class QuestionSlide : ScriptableObject
 //
 
     public string GetBodyText() {return bodyText;}
-    public string GetOption1Text() {return option1Text;}
-    public string GetOption2Text() {return option2Text;}
-    public string GetOption3Text() {return option3Text;}
-    public int GetOption1Consequence() {return consequence1;}
-    public int GetOption2Consequence() {return consequence2;}
-    public int GetOption3Consequence() {return consequence3;}
+    public string GetOptionText(int number)
+    {
+        if (number > 3 || number < 1)
+        {
+            throw new UnityException("Option Text Request out of range: *" + number + "* is not 1, 2 or 3.");
+        }
+
+        if (number == 1)
+        {
+            return option1Text;
+        }
+        if (number == 2)
+        {
+            return option2Text;
+        }
+        if (number == 3)
+        {
+            return option3Text;
+        }
+        throw new UnityException("End of loop that shouldn't be able to end.");
+    }
+    public int GetConsequence(int number)
+    {
+        if (number > 3 || number < 1)
+        {
+            throw new UnityException("Option Text Request out of range: *" + number + "* is not 1, 2 or 3.");
+        }
+
+        if (number == 1)
+        {
+            return consequence1;
+        }
+        if (number == 2)
+        {
+            return consequence2;
+        }
+        if (number == 3)
+        {
+            return consequence3;
+        }
+        throw new UnityException("End of loop that shouldn't be able to end.");
+    }
     private void GetRidOfUnityWarning() {string variableToFix = notes;} //removes the Unity warning that this variable is declared, but never used
 
 }
