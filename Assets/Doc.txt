@@ -17,9 +17,8 @@ create classes, brief description to be expanded later
 
 add core game functionality
     ****> go through questions
-    > final class screen
-    > escape closes
-    > playable build
+    ****> final class screen
+    > playable build (close, restart)
 -
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -8,10 +8,10 @@ using System;
 public class TextManager : MonoBehaviour
 {
     [SerializeField] private GameLoop gameLoopManager = null;
-    [SerializeField] private GameObject classTextParent = null;
+    [SerializeField] private GameObject classChoiceUIParent = null;
     [SerializeField] private TextMeshProUGUI classTitleText = null;
     [SerializeField] private TextMeshProUGUI classBodyText = null;
-    [SerializeField] private GameObject optionTextParent = null;
+    [SerializeField] private GameObject optionUIParent = null;
     [SerializeField] private TextMeshProUGUI optionBodyText = null;
     [SerializeField] private TextMeshProUGUI option1Text = null;
     [SerializeField] private TextMeshProUGUI option2Text = null;
@@ -48,10 +48,10 @@ public class TextManager : MonoBehaviour
 
     public void ShowClassText(ClassSlide classSlide)
     {     
-        optionTextParent.SetActive(false);
+        optionUIParent.SetActive(false);
         UpdateFieldText(classTitleText, classSlide.GetClassTitle());
         UpdateFieldText(classBodyText, classSlide.GetBodyText());
-        classTextParent.SetActive(true);
+        classChoiceUIParent.SetActive(true);
     }
 
     private void UpdateFieldText(TextMeshProUGUI field, string newText)
