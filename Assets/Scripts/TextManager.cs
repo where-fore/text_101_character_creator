@@ -8,7 +8,11 @@ using System;
 public class TextManager : MonoBehaviour
 {
     [SerializeField] private GameLoop gameLoopManager = null;
-    [SerializeField] private TextMeshProUGUI bodyText = null;
+    [SerializeField] private GameObject classTextParent = null;
+    [SerializeField] private TextMeshProUGUI classTitleText = null;
+    [SerializeField] private TextMeshProUGUI classBodyText = null;
+    [SerializeField] private GameObject optionTextParent = null;
+    [SerializeField] private TextMeshProUGUI optionBodyText = null;
     [SerializeField] private TextMeshProUGUI option1Text = null;
     [SerializeField] private TextMeshProUGUI option2Text = null;
     [SerializeField] private TextMeshProUGUI option3Text = null;
@@ -21,7 +25,7 @@ public class TextManager : MonoBehaviour
         QuestionSlide currentQuestion = gameLoopManager.getCurrentQuestion();
 
         string newBodyText = currentQuestion.GetBodyText();
-        allFields.Add(bodyText, newBodyText);
+        allFields.Add(optionBodyText, newBodyText);
 
         string newOption1Text = currentQuestion.GetOptionText(1);
         allFields.Add(option1Text, newOption1Text);
@@ -42,12 +46,20 @@ public class TextManager : MonoBehaviour
 
     }
 
+    public void ShowClassText(ClassSlide classSlide)
+    {     
+        optionTextParent.SetActive(false);
+        UpdateFieldText(classTitleText, classSlide.GetClassTitle());
+        UpdateFieldText(classBodyText, classSlide.GetBodyText());
+        classTextParent.SetActive(true);
+    }
+
     private void UpdateFieldText(TextMeshProUGUI field, string newText)
     {
         if (newText != field.text)
         {
             field.text = newText;
-            Debug.Log("Updated " + field.name);
+            //Debug.Log("Updated " + field.name);
         }
     }
 }

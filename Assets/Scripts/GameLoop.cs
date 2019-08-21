@@ -5,17 +5,20 @@ using UnityEngine;
 public class GameLoop : MonoBehaviour
 {
     [SerializeField] private QuestionSlide[] questions = null;
-    [SerializeField] private TextManager textManager = null;
+
     private int currentQuestionArrayIndex = 0;
     private QuestionSlide currentQuestion = null;
     public QuestionSlide getCurrentQuestion() {return currentQuestion;}
-    [SerializeField] private ConsequenceTracker consequenceTracker = null;
 
     [SerializeField] private GameObject warriorIndicator = null;
 
     [SerializeField] private GameObject  mageIndicator = null;
 
     [SerializeField] private GameObject thiefIndicator = null;
+
+    [SerializeField] private TextManager textManager = null;
+    [SerializeField] private ButtonManager buttonManager = null;
+    [SerializeField] private ConsequenceTracker consequenceTracker = null;
 
 
     void Start()
@@ -66,7 +69,11 @@ public class GameLoop : MonoBehaviour
     private void EndCharacterCreation()
     {
         ClassSlide chosenClass = consequenceTracker.DetermineClass();
-        Debug.Log("Your class is: " + chosenClass.GetClassTitle());
+        buttonManager.DisableOptionButtons();
+        textManager.ShowClassText(chosenClass);
+
+
+        //Debug.Log("Your class is: " + chosenClass.GetClassTitle());
     }
 
 
