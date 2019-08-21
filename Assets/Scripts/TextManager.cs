@@ -19,6 +19,12 @@ public class TextManager : MonoBehaviour
     //private TextMeshProUGUI[] allFields = null;
     private Dictionary<TextMeshProUGUI, string> allFields = new Dictionary<TextMeshProUGUI, string>();
     
+
+    private void Start()
+    {
+        classChoiceUIParent.SetActive(false);
+        optionUIParent.SetActive(true);
+    }
     public void UpdateQuestionText()
     {
 

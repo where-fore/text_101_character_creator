@@ -123,5 +123,4 @@ public class GameLoop : MonoBehaviour
         }
         throw new UnityException("End of loop that shouldn't come to an to end.");
     }
-
 }

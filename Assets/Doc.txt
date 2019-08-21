@@ -15,11 +15,9 @@ Round 2: Polish Boogaloo(not from Poland)
 states: edit writing, transition to 3 option warrior/thief/mage
 create classes, brief description to be expanded later
 
-add core game functionality
-    ****> go through questions
-    ****> final class screen
-    > playable build (close, restart)
--
+create a pop-up escape menu, with volume slider and reset button
+
+change Globals.int to a new class -> Archetype.warrior, Global.Archetype.Warrior or something similar, and have it be of type Archetype not int
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~/////////CONTENT/////////~~
@@ -29,8 +27,6 @@ ending: "Begin your journey..." -> fade to black. white text fades in - "journey
 
 proper readme with license
 
-escape menu, settings menu
-
 buttons? on parchment or overlay
 
 
@@ -38,7 +34,7 @@ buttons? on parchment or overlay
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~-------Polish--------~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-First slide longer body text delay (1sec), rest shorter (test delay, try 0.5sec)
+///First slide longer body text delay (1sec), rest shorter (test delay, try 0.5sec)
 
 flicker bell curve instead of random distribution
 
