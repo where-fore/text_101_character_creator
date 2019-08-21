@@ -83,6 +83,6 @@ public class QuestionSlide : ScriptableObject
         }
         throw new UnityException("End of loop that shouldn't be able to end.");
     }
-    private void GetRidOfUnityWarning() {string variableToFix = notes;} //removes the Unity warning that this variable is declared, but never used
+    private void GetRidOfUnityWarning() {var variableToFix = notes;} //removes the Unity warning that this variable is declared, but never used
 
 }

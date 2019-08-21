@@ -11,7 +11,6 @@ Round 2: Polish Boogaloo(not from Poland)
 -------------
 ----To Do----
 -------------
-decide: serialized field references, or FindObjectOfType<ScriptName>();
 
 states: edit writing, transition to 3 option warrior/thief/mage
 create classes, brief description to be expanded later
@@ -35,16 +34,12 @@ escape menu, settings menu
 
 buttons? on parchment or overlay
 
+
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~-------Polish--------~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 First slide longer body text delay (1sec), rest shorter (test delay, try 0.5sec)
-
-code: clean up states
-    > have the options be a dictionary of strings(text on screen) and int-arrays(stats)
--
-
-states: change the option text from "1. Silently pray." to "Silently pray." - add the numbering to the script instead of having to type manually
 
 flicker bell curve instead of random distribution
 
@@ -85,4 +80,4 @@ Answers Aesthetic
 ==================
 Warrior: Short.
 Mage: Creative, maybe a little flowery
-Thief: Sly, practical.
+Thief: Sly, glib.

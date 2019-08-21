@@ -9,13 +9,13 @@ public class GameLoop : MonoBehaviour
     private int currentQuestionArrayIndex = 0;
     private QuestionSlide currentQuestion = null;
     public QuestionSlide getCurrentQuestion() {return currentQuestion;}
+    [SerializeField] private ConsequenceTracker consequenceTracker = null;
 
     [SerializeField] private GameObject warriorIndicator = null;
 
     [SerializeField] private GameObject  mageIndicator = null;
 
     [SerializeField] private GameObject thiefIndicator = null;
-
 
 
     void Start()
@@ -29,48 +29,71 @@ public class GameLoop : MonoBehaviour
         UpdateCurrentQuestion();
     }
 
-    void Update()
-    {
 
-    }
-
-    public void ChooseFirstOption()
+    public void ChooseOption(int optionNumber)
     {
-        StartCoroutine(ActivateIndicator(GetIndicatorForConsequence(1)));
+        int consequence = GetConsequenceForOption(optionNumber);
+
+        consequenceTracker.RememberConsequence(consequence);
+        
+        StartCoroutine(ActivateIndicator(consequence));
+
         NextQuestion();
     }
 
-    public void ChooseSecondOption()
-    {
-        StartCoroutine(ActivateIndicator(GetIndicatorForConsequence(2)));
-        NextQuestion();
-    }
-    public void ChooseThirdOption()
-    {
-        StartCoroutine(ActivateIndicator(GetIndicatorForConsequence(3)));
-        NextQuestion();
-    }
 
     private void NextQuestion()
     {
-        currentQuestionArrayIndex ++;
-        UpdateCurrentQuestion();
+        if (currentQuestionArrayIndex + 1 == questions.Length)
+        {
+            EndCharacterCreation();
+        }
+        else
+        {
+            currentQuestionArrayIndex ++;
+            UpdateCurrentQuestion();
+        }
     }
+
 
     private void UpdateCurrentQuestion()
     {
         currentQuestion = questions[currentQuestionArrayIndex];
-        textManager.UpdateText();
+        textManager.UpdateQuestionText();
     }
 
-    private IEnumerator ActivateIndicator(GameObject indicator)
+
+    private void EndCharacterCreation()
     {
+        ClassSlide chosenClass = consequenceTracker.DetermineClass();
+        Debug.Log("Your class is: " + chosenClass.GetClassTitle());
+    }
+
+
+    private IEnumerator ActivateIndicator(int consequenceNumber)
+    {
+        GameObject indicator = null;
+
+        if (consequenceNumber == Globals.warrior)
+        {
+            indicator = warriorIndicator;
+        }
+        if (consequenceNumber == Globals.mage)
+        {
+            indicator = mageIndicator;
+        }
+        if (consequenceNumber == Globals.thief)
+        {
+            indicator = thiefIndicator;
+        }
+
         indicator.SetActive(true);
         yield return new WaitForSeconds(2f);
         indicator.SetActive(false);
     }
 
-    private GameObject GetIndicatorForConsequence(int optionNumber)
+
+    private int GetConsequenceForOption(int optionNumber)
     {
         if (optionNumber > 3 || optionNumber < 1)
         {
@@ -81,17 +104,17 @@ public class GameLoop : MonoBehaviour
 
         if (consequence == Globals.warrior)
         {
-            return warriorIndicator;
+            return Globals.warrior;
         }
         if (consequence == Globals.mage)
         {
-            return mageIndicator;
+            return Globals.mage;
         }
         if (consequence == Globals.thief)
         {
-            return thiefIndicator;
+            return Globals.thief;
         }
-        throw new UnityException("End of loop that shouldn't be able to end.");
+        throw new UnityException("End of loop that shouldn't come to an to end.");
     }
 
 }

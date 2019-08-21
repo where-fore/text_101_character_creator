@@ -15,7 +15,7 @@ public class TextManager : MonoBehaviour
     //private TextMeshProUGUI[] allFields = null;
     private Dictionary<TextMeshProUGUI, string> allFields = new Dictionary<TextMeshProUGUI, string>();
     
-    public void UpdateText()
+    public void UpdateQuestionText()
     {
 
         QuestionSlide currentQuestion = gameLoopManager.getCurrentQuestion();
