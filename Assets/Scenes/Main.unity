@@ -5422,6 +5422,51 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 163834854}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &164604415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 164604416}
+  - component: {fileID: 164604417}
+  m_Layer: 0
+  m_Name: Cursor Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &164604416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164604415}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 647648527}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &164604417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164604415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd1ada04011f404290809d226aa23c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customCursorPrefab: {fileID: 4745175987536675999, guid: bc4d6071b02cc7544a676bce22ee73e2,
+    type: 3}
 --- !u!4 &170693502
 Transform:
   m_ObjectHideFlags: 0
@@ -5965,6 +6010,7 @@ Transform:
   - {fileID: 1762450445}
   - {fileID: 594603682}
   - {fileID: 934631056}
+  - {fileID: 164604416}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7951,7 +7997,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
+  m_SortingLayerID: -356341483
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &1422640367

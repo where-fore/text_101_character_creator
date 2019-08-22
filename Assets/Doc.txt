@@ -15,8 +15,6 @@ Round 2: Polish Boogaloo(not from Poland)
 states: edit writing, transition to 3 option warrior/thief/mage
 create classes, brief description to be expanded later
 
-create a pop-up escape menu, with volume slider and reset button
-
 change Globals.int to a new class -> Archetype.warrior, Global.Archetype.Warrior or something similar, and have it be of type Archetype not int
 
 custom cursor
