@@ -19,6 +19,8 @@ create a pop-up escape menu, with volume slider and reset button
 
 change Globals.int to a new class -> Archetype.warrior, Global.Archetype.Warrior or something similar, and have it be of type Archetype not int
 
+custom cursor
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~/////////CONTENT/////////~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -69,7 +71,7 @@ Solving problems
 =================
 Warrior: Head on, enact the most direct solution.
 Mage: Find a creative solution.
-Thief: Reframe the situation, create your own favourable scenario
+Thief: Reframe the situation, create a favourable scenario
 
 Answers Aesthetic
 ==================
