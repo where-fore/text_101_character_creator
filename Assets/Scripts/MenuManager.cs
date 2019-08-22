@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class MenuManager : MonoBehaviour
 {
+    [SerializeField] private GameObject mainUICanvasParent = null;
     [SerializeField] private GameObject escapeMenuParent = null;
     private Animator escapeMenuParentAnimator = null;
     private string escapeMenuExitAnimationTriggerStringReference = "Exit Menu";
+    [Tooltip("Make sure the blackout has your desired animation")]
+    [SerializeField] private GameObject blackout = null;
+    private float timeToFade = 5f;
 
     private void Start()
     {
@@ -38,6 +42,14 @@ public class MenuManager : MonoBehaviour
     {
         escapeMenuParentAnimator.SetTrigger(escapeMenuExitAnimationTriggerStringReference);
     }
+
+    public void FadeToBlack()
+    {
+        GameObject blackoutObject = Instantiate(blackout);
+        blackoutObject.transform.SetParent(mainUICanvasParent.transform);
+        blackoutObject.transform.localScale = new Vector3(1, 1, 1);
+    }
+
 
     public void ExitGame()
     {

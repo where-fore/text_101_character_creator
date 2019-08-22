@@ -17,7 +17,6 @@ create classes, brief description to be expanded later
 
 change Globals.int to a new class -> Archetype.warrior, Global.Archetype.Warrior or something similar, and have it be of type Archetype not int
 
-custom cursor
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~/////////CONTENT/////////~~

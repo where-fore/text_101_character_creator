@@ -47,6 +47,9 @@ TagManager:
   - name: UI
     uniqueID: 3938625813
     locked: 0
-  - name: Cursor
+  - name: Escape Menu
     uniqueID: 1059549027
+    locked: 0
+  - name: Above UI
+    uniqueID: 2412697329
     locked: 0
