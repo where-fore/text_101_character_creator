@@ -22,8 +22,6 @@ change Globals.int to a new class -> Archetype.warrior, Global.Archetype.Warrior
 ~~/////////CONTENT/////////~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-ending: "Begin your journey..." -> fade to black. white text fades in - "journey coming soon"
-
 proper readme with license
 
 buttons? on parchment or overlay
@@ -39,7 +37,7 @@ flicker bell curve instead of random distribution
 
 bottom right fold, remove transparency
 
-wax drops on paper
+wax drops on paper?
 
 have fire colour change based on choices? blue for mage, yellow for thief, red for warrior?
     > some sort of change based on choice - sound effect, music something

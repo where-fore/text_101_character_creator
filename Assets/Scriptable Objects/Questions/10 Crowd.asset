@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4ee8c0a5f15c04d993b120958d1f23, type: 3}
+  m_Name: 10 Crowd
+  m_EditorClassIdentifier: 
+  bodyText: Entering town you find that you are witness to a very well-dressed man
+    running from a crowd. He screams to you for help. The crowd behind him seem very
+    angry.
+  option1Text: Rush to the town's aid immediately, despite your lack of knowledge
+    of the circumstances.
+  consequence1: 1
+  option2Text: Stand aside and allow the man and the mob to pass, realizing it is
+    probably best not to get involved.
+  consequence2: 2
+  option3Text: Rush to the man's aid immediately, despite your lack of knowledge of
+    the circumstances.
+  consequence3: 3
+  notes: 

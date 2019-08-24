@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4ee8c0a5f15c04d993b120958d1f23, type: 3}
+  m_Name: 5 Too Much Coin
+  m_EditorClassIdentifier: 
+  bodyText: Your mother sends you to the market with a list of goods to buy. After
+    you finish you find that by mistake a shopkeeper has given you too much money
+    back in exchange for one of the items.
+  option1Text: Return to the store and give the shopkeeper his hard-earned money,
+    explaining to him the mistake.
+  consequence1: 1
+  option2Text: Decide to put the extra money to good use and purchase items that would
+    help your family.
+  consequence2: 2
+  option3Text: Pocket the extra money, knowing that shopkeepers in general tend to
+    overcharge customers anyway.
+  consequence3: 0
+  notes: 

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4ee8c0a5f15c04d993b120958d1f23, type: 3}
+  m_Name: 7 Cleaning the Stables
+  m_EditorClassIdentifier: 
+  bodyText: Your father sends you on a task which you loathe, cleaning the stables.
+    On the way there, pitchfork in hand, you run into your friend from the homestead
+    near your own. He offers to do it for you, in return for a future favor of his
+    choosing.
+  option1Text: Decline his offer, knowing that your father expects you to do the work,
+    and it is better not to be in debt.
+  consequence1: 1
+  option2Text: Ask him to help you, knowing that two people can do the job faster
+    than one, and agree to help him with one task of his choosing in the future.
+  consequence2: 2
+  option3Text: Accept his offer, reasoning that as long as the stables are cleaned,
+    it matters not who does the cleaning.
+  consequence3: 3
+  notes: 

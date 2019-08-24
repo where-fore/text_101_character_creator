@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4ee8c0a5f15c04d993b120958d1f23, type: 3}
+  m_Name: 6 Coins at Your Feet
+  m_EditorClassIdentifier: 
+  bodyText: While in the market place you witness a thief cut a purse from a noble.
+    Even as he does so, the noble notices and calls for the city guards. In his haste
+    to get away, the thief drops the purse near you. Surprisingly no one seems to
+    notice the bag of coins at your feet.
+  option1Text: Pick up the bag and signal to the guard, knowing that the only honorable
+    thing to do is return the money to its rightful owner.
+  consequence1: 1
+  option2Text: Leave the bag there, knowing that it is better not to get involved.
+  consequence2: 2
+  option3Text: Pick up the bag and pocket it, knowing that the extra windfall will
+    help your family in times of trouble.
+  consequence3: 3
+  notes: 

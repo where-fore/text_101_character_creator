@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4ee8c0a5f15c04d993b120958d1f23, type: 3}
+  m_Name: 8 Hot Pipe
+  m_EditorClassIdentifier: 
+  bodyText: Your mother asks you to help fix the stove. While you are working, a very
+    hot pipe slips its mooring and falls towards her.
+  option1Text: Position yourself between the pipe and your mother.
+  consequence1: 1
+  option2Text: Grab the hot pipe and try to push it away.
+  consequence2: 2
+  option3Text: Push your mother out of the way.
+  consequence3: 3
+  notes: 

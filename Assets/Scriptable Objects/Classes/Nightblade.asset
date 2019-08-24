@@ -10,15 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ca30dcaec2644c42acdf1282e75a54e, type: 3}
-  m_Name: Thief
+  m_Name: Nightblade
   m_EditorClassIdentifier: 
-  titleText: Thief
-  bodyText: Yoink! Rouged
+  titleText: Nightblade
+  bodyText: Nightblades are spellcasters who use their magics to enhance mobility,
+    concealment, and stealthy close combat. They have a sinister reputation, since
+    many nightblades are thieves, enforcers, assassins, or covert agents.
   classImage: {fileID: 0}
   minWarriorChoices: 0
   maxWarriorChoices: 0
   minMageChoices: 0
   maxMageChoices: 0
-  minThiefChoices: 1
-  maxThiefChoices: 20
+  minThiefChoices: 0
+  maxThiefChoices: 0
   notes: 

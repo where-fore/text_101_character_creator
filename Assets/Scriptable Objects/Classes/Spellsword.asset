@@ -10,15 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ca30dcaec2644c42acdf1282e75a54e, type: 3}
-  m_Name: Warrior
+  m_Name: Spellsword
   m_EditorClassIdentifier: 
-  titleText: Warrior
-  bodyText: Smash!
+  titleText: Spellsword
+  bodyText: Spellswords are spellcasting specialists trained to support Imperial troops
+    in skirmish and in battle. Veteran spellswords are prized as mercenaries, and
+    well-suited for careers as adventurers and soldiers-of-fortune.
   classImage: {fileID: 0}
-  minWarriorChoices: 1
-  maxWarriorChoices: 20
-  minMageChoices: 0
-  maxMageChoices: 0
-  minThiefChoices: 0
-  maxThiefChoices: 0
+  minWarriorChoices: 0
+  maxWarriorChoices: 3
+  minMageChoices: 4
+  maxMageChoices: 4
+  minThiefChoices: 3
+  maxThiefChoices: 6
   notes: 

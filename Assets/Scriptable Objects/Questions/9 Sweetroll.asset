@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4ee8c0a5f15c04d993b120958d1f23, type: 3}
+  m_Name: 9 Sweetroll
+  m_EditorClassIdentifier: 
+  bodyText: While in town the baker gives you a sweetroll. Delighted, you take it
+    into an alley to enjoy only to be intercepted by a gang of three other kids your
+    age. The leader demands the sweetroll, or else he and his friends will beat you
+    and take it.
+  option1Text: Drop the sweetroll and step on it, then get ready for the fight.
+  consequence1: 1
+  option2Text: Give him the sweetroll now without argument, knowing that later this
+    afternoon you will have all your friends with you and can come and take whatever
+    he owes you.
+  consequence2: 2
+  option3Text: ' Act like you''re going to give him the sweetroll, but at the last
+    minute throw it in the air, hoping that they''ll pay attention to it long enough
+    for you to get a shot in on the leader.'
+  consequence3: 3
+  notes: 

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ca30dcaec2644c42acdf1282e75a54e, type: 3}
+  m_Name: Acrobat
+  m_EditorClassIdentifier: 
+  titleText: Acrobat
+  bodyText: Acrobat is a polite euphemism for agile burglars and second-story men.
+    These thieves avoid detection by stealth, and rely on mobility and cunning to
+    avoid capture.
+  classImage: {fileID: 0}
+  minWarriorChoices: 2
+  maxWarriorChoices: 2
+  minMageChoices: 2
+  maxMageChoices: 2
+  minThiefChoices: 6
+  maxThiefChoices: 6
+  notes: 

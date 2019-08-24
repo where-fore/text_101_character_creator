@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ca30dcaec2644c42acdf1282e75a54e, type: 3}
+  m_Name: Battlemage
+  m_EditorClassIdentifier: 
+  titleText: Battlemage
+  bodyText: Battlemages are wizard-warriors, trained in both lethal spellcasting and
+    heavily armored combat. They sacrifice mobility and versatility for the ability
+    to supplement melee and ranged attacks with elemental damage and summoned creatures.
+  classImage: {fileID: 0}
+  minWarriorChoices: 0
+  maxWarriorChoices: 1
+  minMageChoices: 6
+  maxMageChoices: 6
+  minThiefChoices: 3
+  maxThiefChoices: 4
+  notes: 

@@ -10,15 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ca30dcaec2644c42acdf1282e75a54e, type: 3}
-  m_Name: Adventurer
+  m_Name: Monk
   m_EditorClassIdentifier: 
-  titleText: Adventurer
-  bodyText: You adventure! Good luck.
+  titleText: Monk
+  bodyText: Monks are students of the ancient martial arts of hand-to-hand combat
+    and unarmored self defense. Monks avoid detection by stealth, mobility, and Agility,
+    and are skilled with a variety of ranged and close-combat weapons.
   classImage: {fileID: 0}
-  minWarriorChoices: 0
-  maxWarriorChoices: 20
-  minMageChoices: 0
-  maxMageChoices: 20
-  minThiefChoices: 0
-  maxThiefChoices: 20
+  minWarriorChoices: 2
+  maxWarriorChoices: 2
+  minMageChoices: 3
+  maxMageChoices: 3
+  minThiefChoices: 5
+  maxThiefChoices: 5
   notes: 
