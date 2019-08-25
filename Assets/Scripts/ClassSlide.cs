@@ -15,10 +15,11 @@ public class ClassSlide : ScriptableObject
     private string bodyText = "";
     public string GetBodyText() {return bodyText;}
 
+/* 
     [Tooltip("Image to display")]
     [SerializeField] [Space(25f)]
     private Sprite classImage = null;
-
+*/
     [Tooltip("The range is inclusive. eg. min 3 and max 5 -> a value of 3, 4, or 5 passes.")]
     [SerializeField] [Space(25f)] 
     private int minWarriorChoices = 0;

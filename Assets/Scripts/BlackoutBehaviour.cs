@@ -15,7 +15,6 @@ public class BlackoutBehaviour : MonoBehaviour
 
     public void ShowText()
     {
-        Debug.Log("ShowText() called.");
         myText.SetActive(true);
     }
 }

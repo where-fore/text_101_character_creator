@@ -12,21 +12,19 @@ Round 2: Polish Boogaloo(not from Poland)
 ----To Do----
 -------------
 
-states: edit writing, transition to 3 option warrior/thief/mage
-create classes, brief description to be expanded later
-
 change Globals.int to a new class -> Archetype.warrior, Global.Archetype.Warrior or something similar, and have it be of type Archetype not int
 
+flesh out game flow ->
+    > intro
+    > font? change maybe, or make more legible somehow
+        > make sure the 2-line options fit the buttons
+        > scrolling text?
+    > class choice intro
+-
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~/////////CONTENT/////////~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sfx on choices (flame swell w/ sound? maybe swell the appropriate colour)
 
 proper readme with license
-
-buttons? on parchment or overlay
-
-
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~-------Polish--------~~~~
@@ -39,10 +37,7 @@ bottom right fold, remove transparency
 
 wax drops on paper?
 
-have fire colour change based on choices? blue for mage, yellow for thief, red for warrior?
-    > some sort of change based on choice - sound effect, music something
-
-have fire colour change very slowly
+have fire colour change very slowly?
 
 have buttons stretch with longer and shorter texts
 
@@ -53,6 +48,8 @@ sparks for fire, or some new ambient Graphics
 animated buttons
 
 sfx for buttons
+
+music swell/increase volume or something at end of creation - the blackout
 
 
 ____________________________

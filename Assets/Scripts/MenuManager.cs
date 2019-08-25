@@ -10,7 +10,6 @@ public class MenuManager : MonoBehaviour
     private string escapeMenuExitAnimationTriggerStringReference = "Exit Menu";
     [Tooltip("Make sure the blackout has your desired animation")]
     [SerializeField] private GameObject blackout = null;
-    private float timeToFade = 5f;
 
     private void Start()
     {
