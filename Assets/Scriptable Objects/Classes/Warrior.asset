@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ca30dcaec2644c42acdf1282e75a54e, type: 3}
-  m_Name: Mage
+  m_Name: Warrior
   m_EditorClassIdentifier: 
-  titleText: Mage
-  bodyText: Most mages claim to study magic for its intellectual rewards, but they
-    also often profit from its practical applications. Varying widely in temperament
-    and motivation, mages share but one thing in common - an avid love of spellcasting.
-  minWarriorChoices: 0
+  titleText: Warrior
+  bodyText: Warriors are the professional men-at-arms, soldiers, mercenaries, and
+    adventurers of the Empire, trained with various weapons and armor styles, conditioned
+    by long marches, and hardened by ambush, skirmish, and battle.
+  minWarriorChoices: 7
   maxWarriorChoices: 20
-  minMageChoices: 7
+  minMageChoices: 0
   maxMageChoices: 20
   minThiefChoices: 0
   maxThiefChoices: 20

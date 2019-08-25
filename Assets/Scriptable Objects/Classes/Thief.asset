@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ca30dcaec2644c42acdf1282e75a54e, type: 3}
-  m_Name: Mage
+  m_Name: Thief
   m_EditorClassIdentifier: 
-  titleText: Mage
-  bodyText: Most mages claim to study magic for its intellectual rewards, but they
-    also often profit from its practical applications. Varying widely in temperament
-    and motivation, mages share but one thing in common - an avid love of spellcasting.
+  titleText: Thief
+  bodyText: Thieves are pickpockets and pilferers. Unlike robbers, who kill and loot,
+    thieves typically choose stealth and subterfuge over violence, and often entertain
+    romantic notions of their charm and cleverness in their acquisitive activities.
   minWarriorChoices: 0
   maxWarriorChoices: 20
-  minMageChoices: 7
+  minMageChoices: 0
   maxMageChoices: 20
-  minThiefChoices: 0
+  minThiefChoices: 7
   maxThiefChoices: 20
   notes: 

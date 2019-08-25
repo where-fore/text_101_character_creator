@@ -23,5 +23,5 @@ MonoBehaviour:
   consequence2: 2
   option3Text: Pocket the extra money, knowing that shopkeepers in general tend to
     overcharge customers anyway.
-  consequence3: 0
+  consequence3: 3
   notes: 
