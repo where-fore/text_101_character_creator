@@ -6042,8 +6042,8 @@ MonoBehaviour:
     self-defense and the use of deadly force. Self-reliant and independent, agents
     devote themselves to personal goals, or to various patrons or causes.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 74acce8f466d37e4cb7cf51d8838e6e8, type: 2}
-  m_sharedMaterial: {fileID: -625327674424871460, guid: 74acce8f466d37e4cb7cf51d8838e6e8,
+  m_fontAsset: {fileID: 11400000, guid: d4628b41a8d84cb43bdd46cda14f7b00, type: 2}
+  m_sharedMaterial: {fileID: 6118454468655937306, guid: d4628b41a8d84cb43bdd46cda14f7b00,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6055,7 +6055,7 @@ MonoBehaviour:
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 1, g: 0.59385926, b: 0, a: 1}
     topRight: {r: 1, g: 1, b: 1, a: 1}
     bottomLeft: {r: 1, g: 1, b: 1, a: 1}
     bottomRight: {r: 1, g: 1, b: 1, a: 1}
@@ -6682,7 +6682,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 74acce8f466d37e4cb7cf51d8838e6e8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d4628b41a8d84cb43bdd46cda14f7b00, type: 2}
   m_sharedMaterial: {fileID: -625327674424871460, guid: 74acce8f466d37e4cb7cf51d8838e6e8,
     type: 2}
   m_fontSharedMaterials: []
@@ -6761,7 +6761,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -7222,6 +7222,18 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4281255935
       objectReference: {fileID: 0}
+    - target: {fileID: 8205737950380918915, guid: 54d5984308c4bcd468cef0f330934356,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d4628b41a8d84cb43bdd46cda14f7b00,
+        type: 2}
+    - target: {fileID: 8205737950380918915, guid: 54d5984308c4bcd468cef0f330934356,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6118454468655937306, guid: d4628b41a8d84cb43bdd46cda14f7b00,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54d5984308c4bcd468cef0f330934356, type: 3}
 --- !u!224 &1068448138 stripped
@@ -7322,7 +7334,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1193457137
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7924,8 +7936,8 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: Agent
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 74acce8f466d37e4cb7cf51d8838e6e8, type: 2}
-  m_sharedMaterial: {fileID: -625327674424871460, guid: 74acce8f466d37e4cb7cf51d8838e6e8,
+  m_fontAsset: {fileID: 11400000, guid: d4628b41a8d84cb43bdd46cda14f7b00, type: 2}
+  m_sharedMaterial: {fileID: 6118454468655937306, guid: d4628b41a8d84cb43bdd46cda14f7b00,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

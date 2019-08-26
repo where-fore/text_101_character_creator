@@ -189,8 +189,8 @@ MonoBehaviour:
   m_text: 3. Return to your physical training regimine, working closer to being able
     to join the standing militia.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 74acce8f466d37e4cb7cf51d8838e6e8, type: 2}
-  m_sharedMaterial: {fileID: -625327674424871460, guid: 74acce8f466d37e4cb7cf51d8838e6e8,
+  m_fontAsset: {fileID: 11400000, guid: d4628b41a8d84cb43bdd46cda14f7b00, type: 2}
+  m_sharedMaterial: {fileID: 6118454468655937306, guid: d4628b41a8d84cb43bdd46cda14f7b00,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

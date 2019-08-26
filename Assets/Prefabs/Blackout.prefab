@@ -67,7 +67,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: Journey coming soon...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 74acce8f466d37e4cb7cf51d8838e6e8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d4628b41a8d84cb43bdd46cda14f7b00, type: 2}
   m_sharedMaterial: {fileID: -625327674424871460, guid: 74acce8f466d37e4cb7cf51d8838e6e8,
     type: 2}
   m_fontSharedMaterials: []
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}

@@ -16,15 +16,19 @@ change Globals.int to a new class -> Archetype.warrior, Global.Archetype.Warrior
 
 flesh out game flow ->
     > intro
-    > font? change maybe, or make more legible somehow
+    > polish text
         > make sure the 2-line options fit the buttons
         > scrolling text?
     > class choice intro
 -
 
+go through class picking logic
+
 sfx on choices (flame swell w/ sound? maybe swell the appropriate colour)
 
 proper readme with license
+
+write your own adventure!!!
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~-------Polish--------~~~~
@@ -70,3 +74,6 @@ Answers Aesthetic
 Warrior: Short.
 Mage: Creative, maybe a little flowery
 Thief: Sly, glib.
+
+
+FF9000 is base colour for light
