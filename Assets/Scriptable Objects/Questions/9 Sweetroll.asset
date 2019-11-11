@@ -12,13 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c4ee8c0a5f15c04d993b120958d1f23, type: 3}
   m_Name: 9 Sweetroll
   m_EditorClassIdentifier: 
-  bodyText: 'While in town the baker gives you a sweetroll. Delighted, you take it
+  bodyText: While in town the baker gives you a sweetroll. Delighted, you take it
     into an alley to enjoy only to be intercepted by a gang of three other kids your
     age. The leader demands the sweetroll, or else he and his friends will beat you
     and take it.
-
-
-    What do you do?'
   option1Text: Drop the sweetroll and step on it, then get ready for the fight.
   consequence1: 1
   option2Text: Give him the sweetroll now without argument, knowing that later this

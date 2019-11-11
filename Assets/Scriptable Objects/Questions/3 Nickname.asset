@@ -12,12 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c4ee8c0a5f15c04d993b120958d1f23, type: 3}
   m_Name: 3 Nickname
   m_EditorClassIdentifier: 
-  bodyText: 'Your cousin has given you a very embarrassing nickname and, even worse,
+  bodyText: Your cousin has given you a very embarrassing nickname and, even worse,
     likes to call you it in front of your friends. You asked him to stop, but he finds
     it very amusing to watch you blush.
-
-
-    What do you do?'
   option1Text: Beat up your cousin, then tell him that if he ever calls you that nickname
     again, you will bloody him worse than this time.
   consequence1: 1

@@ -12,13 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c4ee8c0a5f15c04d993b120958d1f23, type: 3}
   m_Name: 7 Cleaning the Stables
   m_EditorClassIdentifier: 
-  bodyText: 'Your father sends you on a task which you loathe, cleaning the stables.
+  bodyText: Your father sends you on a task which you loathe, cleaning the stables.
     On the way there, pitchfork in hand, you run into your friend from the homestead
     near your own. He offers to do it for you, in return for a future favor of his
     choosing.
-
-
-    What do you do?'
   option1Text: Decline his offer, knowing that your father expects you to do the work,
     and it is better not to be in debt.
   consequence1: 1
