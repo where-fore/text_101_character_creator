@@ -11,9 +11,6 @@ Round 2: Polish Boogaloo(not from Poland)
 -------------
 ----To Do----
 -------------
-Bigger buttons to accomodate double lines
--
-
 
 change Globals.int to a new class -> Archetype.warrior, Global.Archetype.Warrior or something similar, and have it be of type Archetype not int
 
@@ -24,8 +21,6 @@ flesh out game flow ->
         > scrolling text?
     > class choice intro
 -
-
-go through class picking logic
 
 sfx on choices (flame swell w/ sound? maybe swell the appropriate colour)
 
@@ -57,6 +52,8 @@ animated buttons
 sfx for buttons
 
 music swell/increase volume or something at end of creation - the blackout
+
+tighten class picking logic
 
 
 ____________________________

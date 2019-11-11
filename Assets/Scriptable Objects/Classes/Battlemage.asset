@@ -16,11 +16,10 @@ MonoBehaviour:
   bodyText: Battlemages are wizard-warriors, trained in both lethal spellcasting and
     heavily armored combat. They sacrifice mobility and versatility for the ability
     to supplement melee and ranged attacks with elemental damage and summoned creatures.
-  classImage: {fileID: 0}
   minWarriorChoices: 0
-  maxWarriorChoices: 1
+  maxWarriorChoices: 2
   minMageChoices: 6
   maxMageChoices: 6
-  minThiefChoices: 3
+  minThiefChoices: 2
   maxThiefChoices: 4
   notes: 

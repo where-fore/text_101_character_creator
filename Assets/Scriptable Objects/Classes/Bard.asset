@@ -16,11 +16,10 @@ MonoBehaviour:
   bodyText: Bards are loremasters and storytellers. They crave adventure for the wisdom
     and insight to be gained, and must depend on sword, shield, spell and enchantment
     to preserve them from the perils of their educational experiences.
-  classImage: {fileID: 0}
   minWarriorChoices: 0
   maxWarriorChoices: 0
-  minMageChoices: 0
-  maxMageChoices: 0
-  minThiefChoices: 0
-  maxThiefChoices: 0
+  minMageChoices: 5
+  maxMageChoices: 5
+  minThiefChoices: 5
+  maxThiefChoices: 5
   notes: 

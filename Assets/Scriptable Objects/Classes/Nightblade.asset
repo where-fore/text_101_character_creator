@@ -16,11 +16,10 @@ MonoBehaviour:
   bodyText: Nightblades are spellcasters who use their magics to enhance mobility,
     concealment, and stealthy close combat. They have a sinister reputation, since
     many nightblades are thieves, enforcers, assassins, or covert agents.
-  classImage: {fileID: 0}
-  minWarriorChoices: 0
-  maxWarriorChoices: 0
-  minMageChoices: 0
-  maxMageChoices: 0
-  minThiefChoices: 0
-  maxThiefChoices: 0
+  minWarriorChoices: 3
+  maxWarriorChoices: 3
+  minMageChoices: 2
+  maxMageChoices: 2
+  minThiefChoices: 5
+  maxThiefChoices: 5
   notes: 
