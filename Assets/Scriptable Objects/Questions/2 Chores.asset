@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c4ee8c0a5f15c04d993b120958d1f23, type: 3}
   m_Name: 2 Chores
   m_EditorClassIdentifier: 
-  bodyText: One Summer afternoon your father gives you a choice of chores.
+  bodyText: 'One Summer afternoon your father gives you a choice of chores.
+
+
+    What do you do?'
   option1Text: Work in the forge with him casting iron for a new plow.
   consequence1: 1
   option2Text: Gather herbs for your mother who is preparing dinner.

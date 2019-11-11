@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c4ee8c0a5f15c04d993b120958d1f23, type: 3}
   m_Name: 10 Crowd
   m_EditorClassIdentifier: 
-  bodyText: Entering town you find that you are witness to a very well-dressed man
+  bodyText: 'Entering town you find that you are witness to a very well-dressed man
     running from a crowd. He screams to you for help. The crowd behind him seem very
     angry.
+
+
+    What do you do?'
   option1Text: Rush to the town's aid immediately, despite your lack of knowledge
     of the circumstances.
   consequence1: 1
