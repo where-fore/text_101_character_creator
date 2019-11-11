@@ -22,7 +22,7 @@ flesh out game flow ->
     > class choice intro
 -
 
-sfx on choices (flame swell w/ sound? maybe swell the appropriate colour)
+feedback for choices: sfx? flame swell w/ sound? maybe swell the appropriate colour
 
 proper readme with license
 
@@ -33,15 +33,15 @@ write your own adventure!!!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ///First slide longer body text delay (1sec), rest shorter (test delay, try 0.5sec)
 
-flicker bell curve instead of random distribution
+flicker effect: bell curve instead of random distribution
 
-bottom right fold, remove transparency
+bottom right fold: remove transparency
 
 wax drops on paper?
 
 have fire colour change very slowly?
 
-have buttons stretch with longer and shorter texts
+buttons: stretch with longer and shorter texts?
 
 "no flicker" accessibility option - as well as more lights
 
